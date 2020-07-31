@@ -1,0 +1,29 @@
+.users {
+  list-style-type: circle;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: rgb(231, 228, 228);
+  border: 3px solid lightslategrey;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.form1 {
+  border: 2px solid slategray;
+  padding: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 17px;
+  font-family: sans-serif;
+  background-color: lightsteelblue;
+}
+
+.form1 h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.users h2 {
+  text-align: center;
+  text-decoration: underline;
+}

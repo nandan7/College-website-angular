@@ -1,0 +1,52 @@
+.clg {
+  list-style-type: none;
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 50px;
+  background-color: whitesmoke;
+  border: 3px solid lightslategrey;
+  box-shadow: 1px 1px 6px 6px #645858;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+div {
+  font-size: 18px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(105, 105, 105);
+  padding: 5px;
+}
+
+a:hover {
+  color: lightskyblue;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  margin-left: 40px;
+}
+
+.h3 h3 {
+  margin-left: 40px;
+}
+
+.div1 {
+  padding-left: 40px;
+}
+
+.div3 {
+  padding-left: 40px;
+}

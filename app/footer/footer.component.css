@@ -1,0 +1,8 @@
+div img {
+  margin-top: 50px;
+  width: 900px;
+  height: 100px;
+  margin-left: 220px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 6px 6px #645858;
+}

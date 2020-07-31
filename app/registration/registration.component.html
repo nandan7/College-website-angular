@@ -1,0 +1,53 @@
+<form [formGroup]="Form" (ngSubmit)="onSubmit()" class="form1">
+  <h3>{{"Registration Form" | uppercase}}</h3>
+  <label>First Name* : </label><br>
+  <input type="text" formControlName="firstName" [(ngModel)]="newUser.firstname"><br>
+  <div *ngIf="firstName.invalid && (firstName.dirty || firstName.touched)">
+    <div *ngIf="firstName.errors.required">
+      Name is required !!
+    </div>
+    <div *ngIf="firstName.errors.minlength">
+      Name must have minimum 4 characters
+    </div>
+    <div *ngIf="firstName.errors.pattern">
+      Name must contain alphabets
+    </div>
+  </div><br>
+  <label>Last Name : </label><br>
+  <input type="text" formControlName="lastName" [(ngModel)]="newUser.lastname"><br><br>
+  <label>Email* : </label><br>
+  <input type="text" formControlName="email" [(ngModel)]="newUser.email"><br>
+  <div *ngIf="email.invalid && (email.dirty || email.touched)">
+    <div *ngIf="email.errors.required">
+      Email is required !!
+    </div>
+    <div *ngIf="email.errors.pattern">
+      Email is invalid !!
+    </div>
+  </div>
+  <br>
+  <label>Password* : </label><br>
+  <input type="text" formControlName="password"><br>
+  <div *ngIf="password.invalid && (password.dirty || password.touched)">
+    <div *ngIf="password.errors.required">
+      Password is required !!
+    </div>
+    <div *ngIf="password.errors.minlength">
+      Password must have minimum 6 characters
+    </div>
+  </div><br>
+  <div *ngIf="password.valid && firstName.valid && email.valid">
+    <button (click)="addUser(newUser)">Submit</button>
+  </div>
+  <h5>( * - Mandatory )<br><br>(Firstname, Email and Password are mandatory)</h5>
+
+</form>
+<ul class="users">
+  <h2>{{"Registered Students details" | uppercase }}</h2>
+  <li *ngFor="let user of users">
+    <h3>{{user.firstname}}</h3>
+    <p>{{user.lastname}}</p>
+    <p> {{user.email}}</p>
+    <hr>
+  </li>
+</ul>

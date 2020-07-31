@@ -1,0 +1,43 @@
+agm-map {
+  height: 300px;
+  width: 1200px;
+}
+
+.map {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 19px;
+}
+
+ul {
+  background-color: whitesmoke;
+  margin-left: 70px;
+  margin-right: 70px;
+  border: 3px solid rgb(185, 5, 5);
+  line-height: 30px;
+  list-style-type: circle;
+  box-shadow: 1px 1px 4px 4px #8b3131;
+}
+
+h2 {
+  background-color: rgb(204, 193, 193);
+  padding: 5px;
+  margin-right: 70px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: darkred;
+}
+
+.anc h2 {
+  margin-left: 70px;
+}
+
+.map1 {
+  border: 2px solid black;
+  margin-right: 59px;
+  box-shadow: 1px 1px 6px 6px #eb3131;
+
+}

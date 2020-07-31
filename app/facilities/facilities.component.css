@@ -1,0 +1,23 @@
+ul {
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 40px;
+  background-color: whitesmoke;
+  border: 3px solid lightslategrey;
+  padding: 20px;
+  padding-left: 40px;
+  list-style-type: circle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.pics img {
+  border: 2px solid darkslategray;
+}
