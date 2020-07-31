@@ -1,0 +1,2 @@
+This project is a college website designed using angular, Html and CSS. It works the same way of how a real college website works , i have added all the components like about the college, courses offered, facilities and many more.
+I have used Angular-api concept for including map where we can see the location of the college and also added a form for registering of intersested students and have included validation to that form.
